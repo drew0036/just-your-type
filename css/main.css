@@ -64,3 +64,43 @@ em {
 .icon-2 {
   margin: auto auto;
 }
+
+@media only screen and (min-width: 25em) {
+
+  .bottom-grid {
+    position: relative;
+  }
+
+  .icon-1 {
+    width: 25%;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+
+  .line-1 {
+    text-align: left;
+  }
+
+  .line-2 {
+    text-align: right;
+  }
+
+  .line-3 {
+    text-align: left;
+  }
+
+  .line-4 {
+    text-align: right;
+  }
+
+  .line-5 {
+    text-align: left;
+  }
+
+  .line-6 {
+    text-align: right;
+  }
+
+}
