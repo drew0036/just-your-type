@@ -33,16 +33,16 @@ em {
 
 .top-grid {
   background-color: #FFE51A;
-  color: #B31261;
+  color: #14b5cc;
   width: 100%;
-  height: 20rem;
+  height: 25rem;
 }
 
 .bottom-grid {
-  background-color: #FF007E;
-  color: #099D83;
+  background-color: #B31261;
+  color: #14b5cc;
   width: 100%;
-  height: 25rem;
+  height: 30rem;
 }
 
 .p-1 {
@@ -52,7 +52,7 @@ em {
 }
 
 .p-2 {
-  top: 50%;
+  top: 60%;
   right: 0;
   left: 0;
 }
@@ -67,8 +67,13 @@ em {
 
 @media only screen and (min-width: 25em) {
 
+  .top-grid {
+    height: 20rem;
+  }
+
   .bottom-grid {
     position: relative;
+    height: 28rem;
   }
 
   .icon-1 {
@@ -79,16 +84,32 @@ em {
     left: 2%;
   }
 
+  .icon-2 {
+    width: 25%;
+    display: inline;
+    position: absolute;
+    right: 2%;
+  }
+
+  .p-1 {
+    top: 10%;
+  }
+
+  .p-2 {
+    top: 10%;
+  }
+
   .line-1 {
-    text-align: left;
+    text-align: right;
   }
 
   .line-2 {
-    text-align: right;
+    text-align: left;
   }
 
   .line-3 {
     text-align: left;
+    margin-bottom: 1em;
   }
 
   .line-4 {
@@ -104,3 +125,123 @@ em {
   }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+  .p-1 {
+    max-width: 50%;
+    position: absolute;
+    top: 25%;
+    padding: 0 2rem;
+  }
+
+  .p-2 {
+    position: absolute;
+    top: 25%;
+    padding: 0 2rem;
+  }
+
+  .top-grid {
+    height: 45rem;
+  }
+
+  .bottom-grid {
+    height: 45rem;
+  }
+
+  .icon-1 {
+    width: 15%;
+    top: 0;
+    left: 2%;
+  }
+
+  .icon-2 {
+    width: 30%;
+    display: inline;
+    position: absolute;
+    bottom: 0%;
+    right: 2%;
+  }
+
+  .line-1 {
+    text-align: left;
+  }
+
+  .line-3 {
+    margin-bottom: 0;
+  }
+
+  .line-4 {
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .line-6 {
+    text-align: left;
+  }
+
+  @media only screen and (min-width: 60em) {
+
+    .top-grid {
+      height: 20rem;
+    }
+
+    .bottom-grid {
+      height: 20rem;
+    }
+
+    .p-1 {
+      max-width: 100%;
+      position: absolute;
+      top: 20%;
+      right: 2%;
+    }
+
+    .p-2 {
+      max-width: 100%;
+      position: absolute;
+      top: 20%;
+      padding: 0 2rem;
+    }
+
+    .line-1 {
+      text-align: right;
+      line-height: 0;
+    }
+
+    br {
+      display: none;
+    }
+
+    em {
+      color: #FFE51A;
+    }
+
+    .line-2 {
+      text-align: right;
+    }
+
+    .line-3 {
+      text-align: left;
+    }
+
+    .line-4 {
+      text-align: left;
+    }
+
+    .line-5 {
+      text-align: left;
+      line-height: 0;
+    }
+
+    .line-6 {
+      text-align: left;
+    }
+
+    .icon-1 {
+      width: 15%;
+    }
+
+    .icon-2 {
+      width: 15%;
+    }
