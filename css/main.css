@@ -2,11 +2,6 @@ html {
   font-family: "Permanent Marker", cursive;
 }
 
-img {
-  display: block;
-  width: 100%;
-}
-
 .icon-unit {
   display: flex;
   margin: 0 auto;
@@ -145,7 +140,7 @@ img {
   .icon-2 {
     width: 30%;
     position: absolute;
-    bottom: 0%;
+    bottom: 15%;
     right: 2%;
   }
 

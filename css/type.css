@@ -256,7 +256,7 @@ small,
 
 .pico {
   font-size: .1459rem;
-  line-height: rem;
+  line-height: .375rem;
 }
 
 ul,
@@ -279,12 +279,6 @@ ul ol {
   margin-left: -1.4em;
   text-align: right;
   width: 1.3em;
-}
-
-table {
-  margin-left: -.325rem;
-  margin-right: -.325rem;
-  width: calc(100% + .325rem + .325rem);
 }
 
 input,
@@ -671,7 +665,7 @@ legend {
 
   .pico {
     font-size: .1459rem;
-    line-height: -0rem;
+    line-height: .4rem;
   }
 
   ul,
@@ -1088,7 +1082,7 @@ legend {
 
   .pico {
     font-size: .1459rem;
-    line-height: rem;
+    line-height: .425rem;
   }
 
   ul,
@@ -1505,7 +1499,7 @@ legend {
 
   .pico {
     font-size: .1459rem;
-    line-height: rem;
+    line-height: .425rem;
   }
 
   ul,
